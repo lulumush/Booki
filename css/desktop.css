@@ -25,7 +25,7 @@ h1{
 header{
     display: flex;
     justify-content: space-between;
-    padding:25px 0px;
+    padding:25px 0;
 }
 /* logo */
 header img{
@@ -52,7 +52,7 @@ nav a:hover{
     vertical-align: middle;
     padding:15px 17px;
     background-color: #f2f2f2;
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 15px 0 0 15px;
 }
 #town{
     border:1px solid #f2f2f2;
@@ -64,12 +64,12 @@ nav a:hover{
 }
 #search_button{
     height:100%;
-    border:0px;
+    border:0;
     color:white;
     background-color: #0065FC;
-    border-radius: 0px 15px 15px 0px;
+    border-radius: 0 15px 15px 0;
     margin-left: -5px;
-    padding:0px 15px;
+    padding:0 15px;
     font-weight: bold;
     cursor: pointer;
 }

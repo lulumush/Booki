@@ -2,34 +2,34 @@
 {
     /* general */
     body{
-        margin:0px;
+        margin:0;
     }
     main{
         margin:0 5%;
     }
     /* header */
     header{
-        margin: 20px 0px 0px 0px;
+        margin: 20px 0 0 0;
         flex-direction: column;
         align-items: center;
-        padding: 0px;
+        padding: 0;
     }
     /* nav */
     nav a:hover{
-        border-top: 0px;        
+        border-top: 0;        
     }
     nav{
         width: 100%;
-        padding: 20px 0px 0px 0px;
+        padding: 20px 0 0 0;
     }
 
     nav ul{
-        padding: 0px;
+        padding: 0;
     }
     nav li{        
         width: 100%;
-        margin:0px;
-        padding: 0px 0px 20px 0px;
+        margin:0;
+        padding: 0 0 20px 0;
         text-align: center;
         border-bottom: 3px solid #F2F2F2;
     }
@@ -48,7 +48,7 @@
     }
     #search_phone{
         display: unset;
-        border:0px;
+        border:0;
         color:white;
         border-radius: 15px;
         padding:15px;
