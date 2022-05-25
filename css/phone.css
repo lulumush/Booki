@@ -4,7 +4,9 @@
     body{
         margin:0px;
     }
-
+    main{
+        margin:0 5%;
+    }
     /* header */
     header{
         margin: 20px 0px 0px 0px;
@@ -12,6 +14,7 @@
         align-items: center;
         padding: 0px;
     }
+    /* nav */
     nav a:hover{
         border-top: 0px;        
     }
@@ -33,4 +36,29 @@
     nav li:hover{
         border-bottom: 3px solid #0065FC;
     }
+    /* search bar */
+    .search_form{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        width:100%;
+    }
+    .search_form #town{
+        flex: 1;
+    }
+    #search_phone{
+        display: unset;
+        border:0px;
+        color:white;
+        border-radius: 15px;
+        padding:15px;
+        background-color: #0065FC;
+        margin-left:-15px;
+        z-index: 1;
+        cursor: pointer;
+    }
+    #search_button{
+        display: none;
+    }
+
 }
