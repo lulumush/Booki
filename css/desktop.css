@@ -149,11 +149,17 @@ nav a:hover{
     padding-left:35px;
     margin-top: 30px;
 }
+.card_effect{
+    box-shadow: 0 4px 8px 0 #d2d2d2;
+}
+.card_effect:hover{
+    box-shadow: 0 8px 16px 0 #d2d2d2;
+}
 /* accommodation cards global layout */
 .accommodation_card{
     margin:10px 35px 30px 35px;
     display:flex;
-    justify-content: space-between;   
+    justify-content: space-between;  
 }
 /* accommodation single card */
 .accommodation_single_card{
@@ -161,11 +167,7 @@ nav a:hover{
     border:4px solid transparent;
     border-radius: 20px;
     width:30%;
-    padding-bottom:5px;
-    box-shadow: 0 4px 8px 0 #d2d2d2;
-}
-.accommodation_single_card:hover{
-    box-shadow: 0 8px 16px 0 #d2d2d2;
+    padding-bottom:5px;    
 }
 .accommodation_single_card img{
     width:100%;
@@ -173,11 +175,11 @@ nav a:hover{
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
-.accommodation_single_card_description{
-    margin-left:10px;
+.accommodation_single_card_description, .popular_single_card_description{
+    margin:10px;
 }
-.accommodation_single_card_description h3, .accommodation_single_card_description p{
-    margin: 5px 0 5px 0;
+.accommodation_single_card_description h3, .accommodation_single_card_description p,.popular_single_card_description h3, .popular_single_card_description p{
+    margin: 5px 0 5px;
 }
 /* rating */
 .full{
@@ -212,17 +214,33 @@ nav a:hover{
     flex-direction: column; 
     justify-content: space-between;
     height:85%;
-    border:1px solid yellowgreen;
 }
 .popular_single_card{
     background-color: white;
     border:4px solid transparent;
     border-radius: 20px;
+    height:30%;
+    display: flex;
 }
+.popular_single_card img{
+    height: 100%;
+    width:40%;
+    object-fit: cover;
+    border-radius: 20px 0 0 20px;
+}
+.popular_single_card a{
+    display: flex;
+}
+.popular_single_card_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
-
-
-
-
-
+}
+.popular_single_card_rating{
+    display: flex;
+}
+.popular_single_card_rating i{
+    margin: 0 2px;
+}
 
