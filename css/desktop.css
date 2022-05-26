@@ -138,6 +138,7 @@ nav a:hover{
     margin-top:20px;
     display: flex;
     justify-content: space-between;
+    font-size:13px;
 }
 .accommodation_result{
     background-color: #f2f2f2;
@@ -148,14 +149,14 @@ nav a:hover{
     padding-left:35px;
     margin-top: 30px;
 }
-/* accommodation card */
+/* accommodation cards global layout */
 .accommodation_card{
     margin:10px 35px 30px 35px;
     display:flex;
-    justify-content: space-between;    
+    justify-content: space-between;   
 }
-.accommodation_card article{
-    font-size:13px;
+/* accommodation single card */
+.accommodation_single_card{
     background-color: white;
     border:4px solid transparent;
     border-radius: 20px;
@@ -163,27 +164,29 @@ nav a:hover{
     padding-bottom:5px;
     box-shadow: 0 4px 8px 0 #d2d2d2;
 }
-.accommodation_card article:hover{
+.accommodation_single_card:hover{
     box-shadow: 0 8px 16px 0 #d2d2d2;
 }
-.accommodation_card img{
+.accommodation_single_card img{
     width:100%;
     height:110px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
-.accommodation_card_description{
+.accommodation_single_card_description{
     margin-left:10px;
 }
-.accommodation_card_description h3, .accommodation_card_description p{
+.accommodation_single_card_description h3, .accommodation_single_card_description p{
     margin: 5px 0 5px 0;
 }
+/* rating */
 .full{
     color:#0065FC;
 }
 .empty{
     color: #f2f2f2;
 }
+/* accommodation more result */
 .accommodation_more{
     margin:10px 35px 20px 35px;
     font-weight: bold;
@@ -200,6 +203,23 @@ nav a:hover{
     align-items: center;
     padding-right: 35px;
 }
+.popular_header i{
+    margin-top:20px;
+}
+.popular_card{
+    margin:0 35px 30px 35px;
+    display:flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    height:85%;
+    border:1px solid yellowgreen;
+}
+.popular_single_card{
+    background-color: white;
+    border:4px solid transparent;
+    border-radius: 20px;
+}
+
 
 
 
