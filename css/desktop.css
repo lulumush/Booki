@@ -145,12 +145,12 @@ nav a:hover{
     width: 65%;
 }
 .accommodation_popular h2{
-    padding-left:20px;
+    padding-left:35px;
     margin-top: 30px;
 }
 /* accommodation card */
 .accommodation_card{
-    margin:30px 20px 30px 20px;
+    margin:10px 35px 30px 35px;
     display:flex;
     justify-content: space-between;    
 }
@@ -161,6 +161,10 @@ nav a:hover{
     border-radius: 20px;
     width:30%;
     padding-bottom:5px;
+    box-shadow: 0 4px 8px 0 #d2d2d2;
+}
+.accommodation_card article:hover{
+    box-shadow: 0 8px 16px 0 #d2d2d2;
 }
 .accommodation_card img{
     width:100%;
@@ -168,11 +172,10 @@ nav a:hover{
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
-.card_description{
+.accommodation_card_description{
     margin-left:10px;
-    width: 100%;
 }
-.card_description h3, .card_description p{
+.accommodation_card_description h3, .accommodation_card_description p{
     margin: 5px 0 5px 0;
 }
 .full{
@@ -180,6 +183,10 @@ nav a:hover{
 }
 .empty{
     color: #f2f2f2;
+}
+.accommodation_more{
+    margin:10px 35px 20px 35px;
+    font-weight: bold;
 }
 /* popular accommodation */
 .popular{
@@ -191,7 +198,7 @@ nav a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 20px;
+    padding-right: 35px;
 }
 
 
