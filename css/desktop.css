@@ -76,5 +76,59 @@ nav a:hover{
 #search_phone{
     display: none;
 }
+/* filter */
+.filter{
+    margin-top:20px;
+    margin-bottom: 0;
+    font-weight:bold;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.filter p{
+    margin: 0;
+}
+.filter ul{    
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.filter li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border:3px solid #f2f2f2;
+    border-radius: 20px;
+    margin:10px;
+    padding-right:20px;  
+    
+}
+.filter i{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    height:40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 100%;
+    margin-left:-5px;
+    margin-right:15px;
+}
+.info{
+    display:flex;
+    align-items: center;
+}
+.fa-info{
+    color:#0065FC;
+    border:2px solid #f2f2f2;
+    border-radius: 100%;
+    padding:5px 8px;   
+    font-size:10px; 
+    font-weight: bold;
+}
+.info p{
+    margin-left:10px;
+}
 
 
