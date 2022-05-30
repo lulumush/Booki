@@ -1,8 +1,11 @@
-@media screen and (max-width: 992px) and (min-width:768px) {
+@media screen and (max-width: 992px) {
     /*--general--*/
-   body{
-    font-size: 18px;
-   }
-  
-   
+    body{
+        margin: 0 30px;
+    } 
+    #accommodation{
+        display:flex;
+        flex-direction: column;
+    }
 }
+    

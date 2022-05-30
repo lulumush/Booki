@@ -4,8 +4,9 @@
 }
 body{
     font-family: 'Raleway', sans-serif;
-    margin: 0 5%;
-    font-size: 16px;
+    margin: 0 auto;
+    max-width: 1168px;
+    font-size: 14px;
 }
 a{
     text-decoration: none;
@@ -21,6 +22,10 @@ h1, h2{
     font-size: 18px;
     font-weight:bold;
 }
+h3{
+    font-size: 14px;
+}
+
 /* header */
 header{
     display: flex;
@@ -41,7 +46,7 @@ nav a{
 }
 nav a:hover{
   border-top: 3px solid #0065FC;
-  padding-top: 38px;
+  padding-top: 36px;
 }
 /* search bar */
 .search_bar{
@@ -133,114 +138,98 @@ nav a:hover{
 .info p{
     margin-left:10px;
 }
-/* accommodation section */
-.accommodation_popular{
-    margin-top:20px;
+/* accommodation and popular section */
+#accommodation{
     display: flex;
-    justify-content: space-between;
-    font-size:13px;
+    gap:35px;
 }
-.accommodation_result{
+/* accommodation and popular general layout */
+.result_general_layout{
     background-color: #f2f2f2;
     border-radius: 20px;
-    width: 65%;
+    padding:20px 35px;    
 }
-.accommodation_popular h2{
-    padding-left:35px;
-    margin-top: 30px;
+.result_header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
 }
-.card_effect{
-    box-shadow: 0 4px 8px 0 #d2d2d2;
-}
-.card_effect:hover{
+.accommodation_single_card:hover, .popular_single_card:hover{
     box-shadow: 0 8px 16px 0 #d2d2d2;
 }
-/* accommodation cards global layout */
-.accommodation_card{
-    margin:10px 35px 30px 35px;
-    display:flex;
-    justify-content: space-between;  
+/* accommodation and popular result cards size */
+.accommodation_result{
+    flex:2;
 }
-/* accommodation single card */
+.popular_result{
+    flex:1;
+}
+/* accommodation cards */
+.accommodation_cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap:35px;
+    padding:17px 0 17px 0;    
+}
 .accommodation_single_card{
-    background-color: white;
-    border:4px solid transparent;
+    flex:1;
+    background-color: #ffffff;
     border-radius: 20px;
-    width:30%;
-    padding-bottom:5px;    
+    box-shadow: 0 4px 8px 0 #cccccc;
 }
 .accommodation_single_card img{
     width:100%;
-    height:110px;
+    height:120px;
     object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0 0;
+    border:4px solid #ffffff;
 }
-.accommodation_single_card_description, .popular_single_card_description{
-    margin:10px;
+.accommodation_single_card_description{
+    margin: 10px;
 }
-.accommodation_single_card_description h3, .accommodation_single_card_description p,.popular_single_card_description h3, .popular_single_card_description p{
-    margin: 5px 0 5px;
+.accommodation_single_card_description h3, .accommodation_single_card_description p, .accommodation_single_card_rating{
+    margin:3px 0;
 }
-/* rating */
-.full{
-    color:#0065FC;
-}
-.empty{
-    color: #f2f2f2;
-}
-/* accommodation more result */
-.accommodation_more{
-    margin:10px 35px 20px 35px;
-    font-weight: bold;
-}
-/* popular accommodation */
-.popular{
-    background-color: #f2f2f2;
-    width:32%;
-    border-radius: 20px;
-}
-.popular_header{
+/* popular accommodation result cards */
+.popular_cards{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 35px;
-}
-.popular_header i{
-    margin-top:20px;
-}
-.popular_card{
-    margin:0 35px 30px 35px;
-    display:flex;
-    flex-direction: column; 
-    justify-content: space-between;
-    height:85%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:35px;
+    justify-content: space-around;
+    padding:17px 0 17px 0;
 }
 .popular_single_card{
-    background-color: white;
-    border:4px solid transparent;
+    flex:1;
+    background-color: #ffffff;
     border-radius: 20px;
-    height:30%;
-    display: flex;
+    box-shadow: 0 4px 8px 0 #cccccc;
 }
 .popular_single_card img{
-    height: 100%;
-    width:40%;
+    height:130px;
+    width:110px;
     object-fit: cover;
     border-radius: 20px 0 0 20px;
+    border:4px solid #ffffff;
 }
 .popular_single_card a{
     display: flex;
 }
-.popular_single_card_description {
+
+.popular_single_card_description{
+    margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
-.popular_single_card_rating{
-    display: flex;
-}
-.popular_single_card_rating i{
-    margin: 0 2px;
+.popular_single_card_description h3, .popular_single_card_description p, .popular_single_card_rating{
+    margin:3px 0;
 }
 
+/* rating icon */
+.full{
+    color:#0065FC;
+}
+.empty{
+    color:#f2f2f2;
+}
