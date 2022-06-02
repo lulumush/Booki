@@ -140,6 +140,7 @@ nav a:hover{
 }
 /* accommodation and popular section */
 #accommodation{
+    margin-top:35px;
     display: flex;
     gap:35px;
 }
@@ -190,7 +191,7 @@ nav a:hover{
 .accommodation_single_card_description h3, .accommodation_single_card_description p, .accommodation_single_card_rating{
     margin:3px 0;
 }
-/* popular accommodation result cards */
+/* popular result cards */
 .popular_cards{
     display: flex;
     flex-direction: column;
@@ -225,11 +226,65 @@ nav a:hover{
 .popular_single_card_description h3, .popular_single_card_description p, .popular_single_card_rating{
     margin:3px 0;
 }
-
 /* rating icon */
 .full{
     color:#0065FC;
 }
 .empty{
     color:#f2f2f2;
+}
+/* Activity section */
+#activity{
+    margin-top:35px;
+}
+.activity_cards{
+    
+    display: flex;
+    gap:45px;
+}
+.activity_portrait_card{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.activity_cards h3{
+    margin:10px 15px;
+}
+.activity_big_card{
+    border-radius:20px;
+    box-shadow: 0 4px 8px 0 #cccccc;
+}
+.activity_big_card:hover{
+    box-shadow: 0 8px 16px 0 #cccccc;
+}
+.activity_big_card img{
+    border-radius: 20px 20px 0 0;
+    height:300px;
+    width: 100%;
+    object-fit: cover;
+}
+.activity_small_card{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 #cccccc;
+}
+.activity_small_card:hover{
+    box-shadow: 0 8px 16px 0 #cccccc;
+}
+.activity_small_card img{  
+    width: 100%;  
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+.bigger_card img{
+    height:140px;
+}
+.smaller_card img{
+    height:80px;
+}
+/* footer */
+footer{
+    margin-top:35px;
+    background-color:#f2f2f2;
 }

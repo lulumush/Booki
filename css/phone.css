@@ -59,10 +59,12 @@
     #search_button{
         display: none;
     }
+    /* popular section */
     .popular_result{
         order:1;
         border-radius: 0;
     }
+    /* accommodation section */
     .accommodation_result{
         order:2;
         border-radius: 0;
@@ -72,4 +74,9 @@
         display: flex;
         flex-direction: column;
     }
+    /* activity section */
+   
+    .activity_portrait_card{
+        flex-direction: column;
+    }    
 }
