@@ -75,8 +75,14 @@
         flex-direction: column;
     }
     /* activity section */
-   
+    #activity{
+        padding:0 35px;
+    }
     .activity_portrait_card{
+        flex-direction: column;
+    }
+    footer{
+        padding: 0 35px;
         flex-direction: column;
     }    
 }

@@ -18,9 +18,7 @@
     }
     .activity_portrait_card{
         flex-direction: row;
-        gap:35px;
+        gap:45px;
     }
-    
-
 }
     

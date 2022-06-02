@@ -237,8 +237,7 @@ nav a:hover{
 #activity{
     margin-top:35px;
 }
-.activity_cards{
-    
+.activity_cards{    
     display: flex;
     gap:45px;
 }
@@ -285,6 +284,18 @@ nav a:hover{
 }
 /* footer */
 footer{
-    margin-top:35px;
+    margin-top:45px;
+    padding:25px 0;
     background-color:#f2f2f2;
+    display: flex;
 }
+footer div{
+    flex:1;
+}
+footer ul{
+    padding:0;    
+}
+footer li{
+    margin:7px 0;
+}
+
