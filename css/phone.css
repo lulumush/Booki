@@ -1,7 +1,7 @@
 @media screen and (max-width: 767px)
 {
     /* general */
-    body{
+    .container{
         margin:0;
     }
     /* header */
@@ -34,7 +34,7 @@
     }
     /* search bar */
     #search_section{
-            margin:0 30px;
+        margin:0 30px;
     }
     .search_form{
         display: flex;
@@ -61,12 +61,13 @@
     }
     /* popular section */
     .popular_result{
-        order:1;
         border-radius: 0;
     }
     /* accommodation section */
+    #accommodation{
+        flex-direction: column-reverse;
+    }
     .accommodation_result{
-        order:2;
         border-radius: 0;
         background-color: #ffffff;
     }
@@ -81,8 +82,9 @@
     .activity_portrait_card{
         flex-direction: column;
     }
-    footer{
-        padding: 0 35px;
+    /*footer*/
+    .footer{
+        margin: 0 30px;
         flex-direction: column;
     }    
 }

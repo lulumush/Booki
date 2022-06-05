@@ -1,12 +1,15 @@
 @media screen and (max-width: 992px) {
     /*--general--*/
-    body{
+     
+    .container, .footer{
         margin: 0 30px;
-    } 
+    }
+    /*accommodation section*/
     #accommodation{
         display:flex;
         flex-direction: column;
     }
+    /*activity cards*/
     .activity_cards img{
         height:150px;
     }    
@@ -19,6 +22,6 @@
     .activity_portrait_card{
         flex-direction: row;
         gap:45px;
-    }
+    }    
 }
     
